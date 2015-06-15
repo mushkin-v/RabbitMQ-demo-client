@@ -1,0 +1,19 @@
+{
+  "name": "Mushkin/RabbitMQ client demo",
+  "authors": [
+    {
+      "name": "Mushkin Vitaliy",
+      "email": "mushkin.v@gmail.com"
+    }
+  ],
+
+  "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "2.8.*@dev",
+        "guzzlehttp/guzzle": "^6.0",
+        "videlalvaro/php-amqplib": "2.2.*"
+    },
+  "autoload": {
+    "psr-0": { "Console": "src" }
+  }
+}

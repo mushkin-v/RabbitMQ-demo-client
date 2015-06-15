@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+///USAGE/// ./console demo:upload ./web/uploads/audio.mp3
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Console\UploadCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new UploadCommand());
+$application->run();
